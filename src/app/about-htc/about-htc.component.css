@@ -1,0 +1,227 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* first-section-css */
+
+.main-section{
+  background-color: #F5f5f7;
+}
+.first-section-headers {
+  margin-left: 9%;
+  margin-top: 50px;
+}
+.first-section-headers h3 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.first-section-headers h5 {
+  font-size: 45px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+  background: linear-gradient(to right, #009D92,#507DF4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.abou-content-section {
+  margin-left: 9%;
+  margin-top: 50px;
+}
+.abou-content-section h3 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.about-content {
+  width: 60%;
+}
+.about-content p {
+  font-size: 33px;
+  font-weight: 400;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+hr.horizontal {
+  width: 6%;
+  background-color: black;
+  height: 3px;
+  color: black !important;
+}
+.about-content-image {
+  margin-left: 9%;
+}
+img.img-fluid.vectorImg {
+  height: 200px;
+  width: 100%;
+  margin-top: -57px;
+}
+/* second-section-css */
+.about-second-section {
+  width: 100%;
+  padding-top: 15px;
+  background-color: #25292F;
+}
+.about-section-carosuel {
+  margin-left: 9%;
+  margin-right: 10%;
+  padding-top: 20px;
+}
+.about-section-carosuel h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-section-carosuel-items {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.about-team-work-card {
+  height: 150px;
+  width: 350px;
+  padding: 30px;
+  background-color: #AAE8E2;
+}
+.about-intigrity-card{
+  height: 150px;
+  width: 350px;
+  padding: 30px;
+  background-color: #F6C1C5;
+}
+i.fas.fa-users {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+.about-team-work-content h3 {
+  padding-top: 50px;
+  font-size: 32px !important;
+}
+i.fas.fa-handshake {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+}
+.about-intigrity-content h3 {
+  padding-top: 50px;
+  font-size: 32px !important;
+}
+.about-team-work-content {
+  padding-bottom: 50px;
+}
+.about-intigrity-content {
+  padding-bottom: 50px;
+}
+/* third-section-css */
+.about-third-section {
+  padding-top: 50px;
+  margin-left: 9%;
+}
+.about-third-section h3 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+.about-employee-section {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.employee-profile-content {
+  width: 63%;
+}
+.employee-profile-content h3 {
+  font-size: 40px !important;
+  padding-bottom: 40px;
+}
+.employee-profile-content span {
+  font-size: 35px;
+  font-weight: 500;
+}
+.employee-profile-content p {
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+img.img-fluid.emp-profile {
+    height: 703px;
+    width: 100%;
+}
+
+/* media queries  */
+
+@media screen and (min-width:360px) and (max-width:414px) {
+  /* first-section-css */
+
+  .first-section-headers h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .first-section-headers h5{
+    font-size: 25px;
+    padding-bottom: 0px;
+  }
+  .abou-content-section h3{
+    font-size: 30px;
+  }
+  .d-flex.flex-row.about-section{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .about-content{
+    width: 100%;
+  }
+  .about-content p{
+    font-size: 25px;
+  }
+  .about-content-image{
+    margin-left: 14px;
+  }
+  img.img-fluid.vectorImg{
+    margin-left: -67px;
+  }
+
+  /* second-section-css */
+
+  .about-team-work-card{
+      width: 278px;
+  }
+  .about-team-work-content h3{
+      font-size: 25px !important;
+  }
+  .about-intigrity-card{
+    width: 278px;
+  }
+  .about-intigrity-content h3{
+    font-size: 25px !important;
+  }
+  .about-section-carosuel h3{
+    font-size: 30px;
+  }
+
+  /* third-section-css */
+
+  .about-third-section h3{
+    font-size: 30px;
+  }
+  .about-employee-section{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .employee-profile-content{
+    width: 100%;
+  }
+  .employee-profile-content p{
+    font-size: 25px;
+  }
+  img.img-fluid.emp-profile{
+    height: 600px;
+    width: 100%;
+  }
+
+}

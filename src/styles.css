@@ -1,0 +1,72 @@
+
+/* dropdown-css */
+a.dropdown-item {
+  cursor: pointer !important;
+}
+/* seventh-section-owlCarousel-css */
+.seventh-section.mt-5 .owl-prev:hover{
+   background-color: #00A596 !important;
+   padding: 4px 15px !important;
+}
+.seventh-section.mt-5 .owl-next:hover{
+  background-color: #00A596 !important;
+  padding: 4px 15px !important;
+}
+
+/* ninth-section-owlCarousel-css */
+.ninth-section.mt-5 .owl-prev {
+  position: absolute !important;
+  top: 36px !important;
+  left: -21px !important;
+  background: none !important;
+  color: black !important;
+}
+.ninth-section.mt-5 .owl-next {
+  position: absolute !important;
+  top: 36px !important;
+  right: -21px !important;
+  color: black !important;
+  background: none !important;
+}
+
+.ninth-section.mt-5.owl-carousel .owl-item img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+
+}
+
+/* aboutHtc-carosuel-section-css */
+
+.about-second-section .owl-prev:hover{
+  background-color:#00A596 !important ;
+  padding: 4px 15px !important;
+}
+.about-second-section .owl-next:hover{
+  background-color:#00A596 !important ;
+  padding: 4px 15px !important;
+}
+.about-second-section .owl-nav.ng-star-inserted{
+  padding-bottom: 30px !important;
+}
+/* employee-section-carosuel */
+.about-third-section .owl-nav.ng-star-inserted{
+    display: flex !important;
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+}
+
+.about-third-section .owl-prev:hover{
+  padding: 4px 15px !important;
+  background-color: #F94C59 !important;
+}
+.about-third-section .owl-next:hover{
+  padding: 4px 15px !important;
+  background-color: #F94C59 !important;
+}
+
+@media  screen and (min-width:360px) and(max-width:414px) {
+  img.img-fluid.logo-image{
+
+  }
+}
